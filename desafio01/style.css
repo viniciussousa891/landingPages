@@ -32,11 +32,13 @@ body{
 header{
   width: 100%;
   background: var(--linear);
-  height: 17%;
+  height: 26%;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  max-height: 250px;
 }
 
 header #header {
@@ -59,3 +61,58 @@ header #logo{
 
   font-size: 24px;
 }
+
+header #header #input {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start;
+
+  margin-top: auto;
+  
+  height: 38.5%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+
+}
+
+header #input img {
+  padding-left: 20px;
+  margin-top: -3px;
+}
+
+header #input input {
+  box-sizing: border-box;
+  border: none;
+  background: none;
+
+  padding-left: 20px;
+
+  height: 100%;
+  width: 100%;
+
+
+
+  
+
+
+}
+
+header #input input:focus{
+  box-shadow: 0 0 0 0;
+  outline: 0;
+
+  color: var(--white);
+}
+
+header #input input::placeholder {
+  color: var(--white);
+  opacity: 50%;
+  font-size: 18px;
+
+  font-family: Inter;
+
+
+  
+}
+
+
