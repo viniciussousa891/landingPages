@@ -1,0 +1,1 @@
+const input = document.querySelector('#input-search')[0].placeholder = '';

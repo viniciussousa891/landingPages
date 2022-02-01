@@ -20,11 +20,6 @@ html, body, .container{
   height: 100%;
 }
 
-#posts{
-  width: 90%;
-  max-width: 900px;
-}
-
 body{
   background-color:#F9F9F9;
 }
@@ -77,7 +72,7 @@ header #header #input {
 
 header #input img {
   padding-left: 20px;
-  margin-top: -3px;
+  margin-top: 1px;
 }
 
 header #input input {
@@ -85,16 +80,17 @@ header #input input {
   border: none;
   background: none;
 
+  font-family: Inter;
+  font-size: 18px;
+
   padding-left: 20px;
 
   height: 100%;
   width: 100%;
+}
 
-
-
-  
-
-
+header #input input::-webkit-search-cancel-button {
+  display: none;
 }
 
 header #input input:focus{
@@ -111,8 +107,11 @@ header #input input::placeholder {
 
   font-family: Inter;
 
+}
 
-  
+#posts{
+  width: 90%;
+  max-width: 900px;
 }
 
 
