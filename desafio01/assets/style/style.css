@@ -22,6 +22,10 @@ html, body, .container{
 
 body{
   background-color:#F9F9F9;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header{
@@ -111,7 +115,13 @@ header #input input::placeholder {
 
 #posts{
   width: 90%;
+  height: 74%;
   max-width: 900px;
+}
+
+#posts article {
+  background-color: #313131;
+  width: 100%;
 }
 
 
